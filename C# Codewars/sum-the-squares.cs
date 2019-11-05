@@ -7,7 +7,6 @@
     For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
 */
-
 public static class Kata
 {
   public static int SquareSum(int[] n)

@@ -7,7 +7,7 @@
 // SOLUTION
 function generateHashtag (str) {
     // if the string is empty or only whitepsace, return false
-    if(!str || !str.replace(/\s/g, '').length) {
+    if(!str || !str.trim().length) {
       return false;
     }
     // split the words
